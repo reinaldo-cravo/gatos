@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: gray;
+    background-color: rgb(53, 52, 52);
     
 }
 
@@ -31,7 +31,7 @@ header h1 {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 400px;
+    max-width: 400px;
     gap: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -40,12 +40,13 @@ header h1 {
 }
 
 .corpo img {
-    max-width: 380px;
+    width: 360px;
     border-radius: 10px;
     padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .corpo p {
@@ -53,6 +54,7 @@ header h1 {
     padding: 5px;
     margin: 9px;
     line-height: 1.5em;
+    font-size: 16px;
 }
 
 .gatos {
